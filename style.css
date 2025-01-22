@@ -179,4 +179,9 @@ header > nav {
         justify-content: center;
         text-align: center;
     }
+    /* hero-2 */
+    .hero-2-section-2{
+        flex-direction: column;
+        margin: 0px 34px 20px 34px;
+    }
 }
