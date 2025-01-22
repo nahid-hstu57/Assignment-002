@@ -212,8 +212,24 @@ padding-right: 50px;
     top: -43px;
     left: 20px;
 }
-
-
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 172, 253);
+    padding: 123px 228px 174px 140px;
+    gap: 160px;
+    color: white;
+}
+.footer-ul>ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    gap: 34.144px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
 
 
 /* responsive */
@@ -261,5 +277,10 @@ padding-right: 50px;
     }
     .hero-3-card>img{
         width: 190px;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 66px 20px 60px 20px;
+        row-gap: 20px;
     }
 }
